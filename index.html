@@ -1,0 +1,131 @@
+<DOCTYPE html>
+    <html lang="en">
+
+    <head>
+
+        <!-- <link rel="stylesheet" href="index.css"/> -->
+
+        <style>
+            #my-postcard {
+                width: 600px;
+                height: 350px;
+                display: flex;
+                flex-direction: column;
+            }
+
+            img {
+                width: 75px;
+                height: 75px;
+            }
+
+            .miclase {
+                display: flex;
+                justify-content: space-between;
+                width: 100%
+            }
+
+            h1 {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                margin-top: 36px;
+                font-size: 26px;
+            }
+
+            p {
+                margin-top: 3px;
+                margin-bottom: 15px;
+                margin-left: 0px;
+                margin-right: 2px;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 20px;
+            }
+
+
+            ul {
+                color: rgb(197, 191, 191);
+                margin-top: 3px;
+                margin-bottom: 5px;
+                margin-left: 30px;
+                margin-right: 60px;
+                font-size: 17px;
+
+            }
+
+
+            u {
+                margin-top: 0%;
+                margin-bottom: 20px;
+                margin-left: 3px;
+                margin-right: 200px;
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+
+            button {
+                margin-top: 150px;
+                margin-bottom: 150px;
+                margin-right: 150px;
+                margin-left: 180px;
+                margin-block: 12px;
+                font-size: 20px;
+                font-family: 'Times New Roman', Times, serif;
+                background-color: rgb(183, 183, 183);
+                color: black;
+                border: none
+            }
+
+            .usar-mitad {
+                width: 50%;
+            }
+
+            .mitad-derecha {
+                margin-top: 10px;
+                margin-left: 30px;
+            }
+
+            input {
+                border: none;
+                border-bottom: 1px solid #000000;
+                margin-bottom: 16px;
+            }
+
+            button {
+                padding: 8px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <div id="my-postcard">
+            <section class="miclase">
+
+                <h1>My Postcard</h1>
+                <img
+                    src="https://storage.googleapis.com/breathecode-asset-images/5318bde604cf5c915f94897a71b49ab2523101322ea21cb046db1e67c24fa3be.png">
+            </section>
+
+            <section class="miclase">
+                <section class="usar-mitad">
+                    <p>Look how awesome! This is a postcard that I created using HTML5 and CSS3 during my 4Geeks Academy
+                        Course!
+                    </p>
+                    <p>This is so cool, can't wait to start doing more stuff!
+                    </p>
+                </section>
+
+                <div class="usar-mitad mitad-derecha">
+                    <input type="text" placeholder="Some Name">
+                    <input type="text" placeholder="Some Email">
+                    <input type="text" placeholder="Some comment">
+                </div>
+            </section>
+            <div>
+                <button><strong>My Postcard</strong></button>
+            </div>
+        </div>
+
+    </body>
+
+
+    </html>
