@@ -8,12 +8,15 @@
 img {
     width: 75px;
     height: 75px;
+    display: flex;
+    margin-inline: 120px;
+
 }
 
 .miclase {
     display: flex;
     justify-content: space-between;
-    width: 100%
+    width: 100%;
 }
 
 h1 {
@@ -31,26 +34,11 @@ p {
     font-size: 21px;
 }
 
-
-ul {
-    color: rgb(197, 191, 191);
-    margin-top: 3px;
-    margin-bottom: 5px;
-    margin-left: 30px;
-    margin-right: 60px;
-    font-size: 17px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-}
-
-
-u {
-    margin-top: 0%;
-    margin-bottom: 20px;
-    margin-left: 300px;
-    margin-right: 200px;
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+input {
+    border: none;
+    border-bottom: 1px solid hwb(0 48% 50%);
+    margin-bottom: 14px;
+    color: hsl(0, 0%, 60%)
 }
 
 button {
@@ -73,11 +61,4 @@ button {
 .mitad-derecha {
     margin-top: 4px;
     margin-left: 10px;
-}
-
-input {
-    border: none;
-    border-bottom: 1px solid hwb(0 48% 50%);
-    margin-bottom: 14px;
-    color: hsl(0, 0%, 60%)
 }
